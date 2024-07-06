@@ -1,0 +1,15 @@
+1)  start an empty node project:
+    npm init -y
+
+2)  npm install colyseus @colyseus/schema express
+    npm install @colyseus/tools --save-dev
+    npm install typescript ts-node @types/node @types/express --save-dev
+
+3)  Initialise typescript
+    npx tsc --init
+
+4)  Setup project structure -> Add src folder
+
+5)  npm install dotenv
+    npm install playfab-sdk 
+    npm install axios 

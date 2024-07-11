@@ -7,7 +7,7 @@ import { WebSocketTransport } from '@colyseus/ws-transport';
 require('dotenv').config();
 
 const app = express();
-const port = parseInt(process.env.NODE_ENV === 'production' ? process.env.PROD_SERVER_PORT : process.env.DEV_SERVER_PORT);
+const port = 3220;
 
 if (isNaN(port) || port < 0 || port > 65535) {
   throw new RangeError(`Invalid port number: ${port}. Port number should be >= 0 and < 65536.`);
